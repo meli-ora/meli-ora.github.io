@@ -1,3 +1,67 @@
+html,
 body {
+  background-color: black;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.container {
+
+  width: 100%;
   color: white;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+  background-repeat: repeat-y;
+  background-size: cover;
+  background-position: center;
+
+  margin: 2%
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+  align-items: center;
+}
+
+.dark-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin: 5% auto;
+}
+
+.fancy-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.link-button {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  padding: 10% 50%;
+  margin: 25%;
+  text-align: center;
+  text-decoration: none;
+  display: inline;
+  cursor: pointer;
+}
+
+.div1 {
+  background-image: url('assets/wotstmBG1.png');
+}
+
+.div2 {
+  background-image: url('assets/omoriBattleBG2.png');
+}
+
+.div3 {
+  background-image: url('assets/omoriBattleBG1.png');
 }
